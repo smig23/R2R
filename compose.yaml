@@ -33,8 +33,8 @@ services:
       - PORT=${PORT:-8000}
       - HOST=${HOST:-0.0.0.0}
       # smig: Allow setting of BASE_URL from environment
-      - BASE_URL=${BASE_URL:-http://localhost}
-
+      - BASE_URL=${BASE_URL:-http://localhost}      
+      
       # R2R
       - CONFIG_NAME=${CONFIG_NAME:-}
       - CONFIG_PATH=${CONFIG_PATH:-}
