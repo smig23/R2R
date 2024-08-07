@@ -169,7 +169,7 @@ class R2RConfig:
             return R2RConfig._serialize_config(config_section.dict(exclude_none=True))
         else:
             return config_section
-    
+
     @staticmethod
     def _serialize_key(key: Any) -> str:
         if isinstance(key, Enum):
